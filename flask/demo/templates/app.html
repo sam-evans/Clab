@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLAB</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    {{ dropzone.load_css() }}
+
+    sasda
+</head>
+<body>
+    <navigation>
+        <div class="navbar" >
+            <ul class="nav-list">
+                <li><a href="register" id="register">log in</a></li>
+                <li><a href="/">clab🎧</a></li>
+                <li><a href="tuner" id="tuner">tuner</a></li>
+                <li><a href="about">about</a></li>
+                <li><a href="contact">contact</a></li>
+            </ul>
+        </div>
+    </navigation>
+        {{ dropzone.create(action='upload') }}
+        {{ dropzone.load_js() }}
+        {{ dropzone.config() }}
+        {{ dropzone.style('background-color: grey') }}
+        
+    <div class="controls">
+        <form action="/display" type="submit">
+    <button class="button-19">Upload MIDI</button>
+    </form>
+    <div>
+
+    
+
+
+
+</body>
+</html>

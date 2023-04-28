@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLAB</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<style>
+    .message{
+        height: 10em;
+        width: 50%;
+        
+    }
+    #b1 {
+        position: relative;
+        width: 30%;
+        height: 10%;
+    }
+
+</style>
+<body>
+    <navigation>
+        <div class="navbar" >
+            <ul class="nav-list">
+                <li><a href="register" id="register">sign up</a></li>
+                <li><a href="/">clab🎧</a></li>
+                <li><a href="tuner" id="tuner">tuner</a></li>
+                <li><a href="about">about</a></li>
+                <li><a>contact</a></li>
+                <li><a href="search">search</a></li>
+            </ul>
+        </div>
+    </navigation>
+
+    <div class="title-body">
+        <h1>Contact Us!</h1>
+
+        <form action="/contact" method = "POST">
+            <p>email <input id="email" type = "text" name = "email" placeholder="email"/></p>
+            <p>name <input id="name" type = "text" name = "name" placeholder="name"/></p>
+            <p><textarea class="message" type = "text" name = "message" placeholder="Message..."/></textarea></p>
+        <p><input class="button-19" id="submit" type = "submit" value = "Message..." /></p>
+        <p>{{d}}</p>
+
+    </div>
+    <div class="controls">
+        <p id="response"></p>
+    <div>
+    </form>
+
+</html>

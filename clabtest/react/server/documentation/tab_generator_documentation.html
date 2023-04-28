@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module tab_generator</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">tab_generator</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cjjara%5Conedrive%5Cdesktop%5Cschool%5Cwinter%202022%20-%202023%5Ccsc%20405%20senior%20capstone%5Ccapstone%5Cflask%5Cdemo%5Ctab_generator.py">c:\users\jjara\onedrive\desktop\school\winter 2022 - 2023\csc 405 senior capstone\capstone\flask\demo\tab_generator.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="copy.html">copy</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="tab_generator.html#Chord">Chord</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="tab_generator.html#PowerChord">PowerChord</a>
+</dt></dl>
+</dd>
+<dt class="heading-text"><a href="tab_generator.html#FretboardPosition">FretboardPosition</a>
+</dt><dt class="heading-text"><a href="tab_generator.html#Note">Note</a>
+</dt><dt class="heading-text"><a href="tab_generator.html#Tab_Dictionary">Tab_Dictionary</a>
+</dt><dt class="heading-text"><a href="tab_generator.html#Term">Term</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Chord">class <strong>Chord</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Chord">Chord</a>(notes:&nbsp;list)<br>
+&nbsp;<br>
+<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Chord-__init__"><strong>__init__</strong></a>(self, notes: list)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="FretboardPosition">class <strong>FretboardPosition</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#FretboardPosition">FretboardPosition</a>(string:&nbsp;int,&nbsp;fret:&nbsp;int)<br>
+&nbsp;<br>
+<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="FretboardPosition-__eq__"><strong>__eq__</strong></a>(self, other)</dt><dd><span class="code">Return&nbsp;self==value.</span></dd></dl>
+
+<dl><dt><a name="FretboardPosition-__init__"><strong>__init__</strong></a>(self, string: int, fret: int)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="FretboardPosition-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">Return&nbsp;str(self).</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__hash__</strong> = None</dl>
+
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Note">class <strong>Note</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Note">Note</a>(note:&nbsp;str,&nbsp;octave:&nbsp;int)<br>
+&nbsp;<br>
+<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Note-__eq__"><strong>__eq__</strong></a>(self, other)</dt><dd><span class="code">Return&nbsp;self==value.</span></dd></dl>
+
+<dl><dt><a name="Note-__init__"><strong>__init__</strong></a>(self, note: str, octave: int)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="Note-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">Return&nbsp;str(self).</span></dd></dl>
+
+<dl><dt><a name="Note-one_step_down"><strong>one_step_down</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__hash__</strong> = None</dl>
+
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="PowerChord">class <strong>PowerChord</strong></a>(<a href="tab_generator.html#Chord">Chord</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#PowerChord">PowerChord</a>(root)<br>
+&nbsp;<br>
+<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="tab_generator.html#PowerChord">PowerChord</a></dd>
+<dd><a href="tab_generator.html#Chord">Chord</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="PowerChord-__init__"><strong>__init__</strong></a>(self, root)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="tab_generator.html#Chord">Chord</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Tab_Dictionary">class <strong>Tab_Dictionary</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Tab_Dictionary">Tab_Dictionary</a>(dictionary,&nbsp;length)<br>
+&nbsp;<br>
+<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Tab_Dictionary-__contains__"><strong>__contains__</strong></a>(self, item)</dt></dl>
+
+<dl><dt><a name="Tab_Dictionary-__getitem__"><strong>__getitem__</strong></a>(self, item)</dt></dl>
+
+<dl><dt><a name="Tab_Dictionary-__init__"><strong>__init__</strong></a>(self, dictionary, length)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="Tab_Dictionary-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">Return&nbsp;str(self).</span></dd></dl>
+
+<dl><dt><a name="Tab_Dictionary-keys"><strong>keys</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Term">class <strong>Term</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Term">Term</a>(number:&nbsp;int,&nbsp;position)<br>
+&nbsp;<br>
+#&nbsp;used&nbsp;to&nbsp;keep&nbsp;track&nbsp;of&nbsp;what&nbsp;note&nbsp;goes&nbsp;where&nbsp;in&nbsp;the&nbsp;tab<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Term-__init__"><strong>__init__</strong></a>(self, number: int, position)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="Term-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">Return&nbsp;str(self).</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</span></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-apply_scale_factor"><strong>apply_scale_factor</strong></a>(tab_dictionary, tuning)</dt><dd><span class="code">Corrects&nbsp;the&nbsp;positionings&nbsp;in&nbsp;a&nbsp;<a href="#Tab_Dictionary">Tab_Dictionary</a>&nbsp;instance&nbsp;so&nbsp;that&nbsp;they&nbsp;are<br>
+reflective&nbsp;of&nbsp;how&nbsp;the&nbsp;song&nbsp;would&nbsp;be&nbsp;played&nbsp;in&nbsp;a&nbsp;certain&nbsp;tuning&nbsp;<br>
+(otherwise,&nbsp;the&nbsp;tab&nbsp;would&nbsp;show&nbsp;negative&nbsp;frets&nbsp;(impossible))</span></dd></dl>
+ <dl><dt><a name="-determine_all_tunings"><strong>determine_all_tunings</strong></a>(notes, tunings, accumulated=[])</dt><dd><span class="code">Determines&nbsp;all&nbsp;the&nbsp;tunings&nbsp;in&nbsp;which&nbsp;a&nbsp;song&nbsp;can&nbsp;be&nbsp;played<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+notes&nbsp;--&nbsp;a&nbsp;sequence&nbsp;of&nbsp;the&nbsp;string&nbsp;representations&nbsp;of&nbsp;note&nbsp;instances.<br>
+tunings&nbsp;--&nbsp;a&nbsp;dictionary&nbsp;corresponding&nbsp;to&nbsp;all&nbsp;the&nbsp;tunings&nbsp;to&nbsp;check&nbsp;(TUNINGS&nbsp;dictionary&nbsp;in<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on&nbsp;line&nbsp;292)<br>
+accumulated&nbsp;--&nbsp;all&nbsp;the&nbsp;tunings&nbsp;that&nbsp;have&nbsp;already&nbsp;been&nbsp;established&nbsp;the&nbsp;notes&nbsp;can&nbsp;be&nbsp;played&nbsp;in</span></dd></dl>
+ <dl><dt><a name="-determine_tuning"><strong>determine_tuning</strong></a>(notes, tunings)</dt><dd><span class="code">Determines&nbsp;the&nbsp;tuning&nbsp;the&nbsp;guitar&nbsp;should&nbsp;be&nbsp;in,&nbsp;based&nbsp;on&nbsp;the&nbsp;lowest&nbsp;played&nbsp;note.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+notes&nbsp;--&nbsp;a&nbsp;sequence&nbsp;of&nbsp;the&nbsp;string&nbsp;representations&nbsp;of&nbsp;note&nbsp;instances.<br>
+tunings&nbsp;--&nbsp;a&nbsp;dictionary&nbsp;corresponding&nbsp;to&nbsp;all&nbsp;the&nbsp;tunings&nbsp;to&nbsp;check&nbsp;(TUNINGS&nbsp;dictionary&nbsp;in<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on&nbsp;line&nbsp;292)</span></dd></dl>
+ <dl><dt><a name="-generate_tab"><strong>generate_tab</strong></a>(tab_dictionary, tuning)</dt><dd><span class="code">Generates&nbsp;and&nbsp;prints&nbsp;a&nbsp;tab&nbsp;to&nbsp;stdout,&nbsp;given&nbsp;a&nbsp;<a href="#Tab_Dictionary">Tab_Dictionary</a>&nbsp;instance.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+tab_dictionary&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#Tab_Dictionary">Tab_Dictionary</a>&nbsp;class.</span></dd></dl>
+ <dl><dt><a name="-generate_tab_dictionary"><strong>generate_tab_dictionary</strong></a>(notes, tuning)</dt><dd><span class="code">Generates&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;&nbsp;<a href="#Tab_Dictionary">Tab_Dictionary</a>&nbsp;class,&nbsp;given&nbsp;a&nbsp;list&nbsp;of&nbsp;notes.&nbsp;The&nbsp;<a href="#Tab_Dictionary">Tab_Dictionary</a>&nbsp;instance&nbsp;associates&nbsp;all&nbsp;the&nbsp;notes&nbsp;with&nbsp;a&nbsp;sequence&nbsp;number&nbsp;by&nbsp;putting&nbsp;them&nbsp;in&nbsp;a&nbsp;<a href="#Term">Term</a>&nbsp;instance,&nbsp;and&nbsp;then&nbsp;associates&nbsp;those&nbsp;notes&nbsp;with&nbsp;a&nbsp;string.&nbsp;This&nbsp;provides&nbsp;all&nbsp;the&nbsp;information&nbsp;needed&nbsp;to&nbsp;create&nbsp;a&nbsp;tab.<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+notes&nbsp;--&nbsp;a&nbsp;list&nbsp;of&nbsp;instances&nbsp;of&nbsp;the&nbsp;<a href="#Note">Note</a>&nbsp;class</span></dd></dl>
+ <dl><dt><a name="-get_best_next_position"><strong>get_best_next_position</strong></a>(previous, options, track, tuning)</dt></dl>
+ <dl><dt><a name="-get_best_next_position_neo"><strong>get_best_next_position_neo</strong></a>(previous, subsequent, options)</dt><dd><span class="code">Returns&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;class&nbsp;corresponding&nbsp;to&nbsp;the&nbsp;best&nbsp;way&nbsp;to&nbsp;play&nbsp;a&nbsp;note,&nbsp;given&nbsp;the&nbsp;context&nbsp;of&nbsp;what&nbsp;was&nbsp;played&nbsp;before&nbsp;and&nbsp;what&nbsp;will&nbsp;be&nbsp;played&nbsp;next.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+previous&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;class,&nbsp;corresponding&nbsp;to&nbsp;the&nbsp;previously&nbsp;played&nbsp;note<br>
+subsequent&nbsp;--&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;next&nbsp;note&nbsp;to&nbsp;be&nbsp;played&nbsp;<br>
+options&nbsp;--&nbsp;list&nbsp;of&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;instances&nbsp;corresponding&nbsp;to&nbsp;ways&nbsp;to&nbsp;play&nbsp;the&nbsp;current&nbsp;note</span></dd></dl>
+ <dl><dt><a name="-get_corresponding_note"><strong>get_corresponding_note</strong></a>(position)</dt></dl>
+ <dl><dt><a name="-get_fretboard_position_octave_down"><strong>get_fretboard_position_octave_down</strong></a>(position)</dt><dd><span class="code">Given&nbsp;a&nbsp;position&nbsp;on&nbsp;the&nbsp;fretboard&nbsp;(e.g.&nbsp;4th&nbsp;fret&nbsp;on&nbsp;the&nbsp;A&nbsp;string),&nbsp;return&nbsp;a&nbsp;list&nbsp;of&nbsp;positions&nbsp;on&nbsp;the&nbsp;fretboard&nbsp;that&nbsp;would&nbsp;play&nbsp;the&nbsp;corresponding&nbsp;note,&nbsp;one&nbsp;octave&nbsp;down.&nbsp;Useful&nbsp;for&nbsp;determining&nbsp;the&nbsp;notes&nbsp;to&nbsp;play&nbsp;for&nbsp;a&nbsp;chord,&nbsp;given&nbsp;just&nbsp;its&nbsp;root.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+position&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;Fretboard&nbsp;position&nbsp;class</span></dd></dl>
+ <dl><dt><a name="-get_fretboard_position_octave_up"><strong>get_fretboard_position_octave_up</strong></a>(position)</dt><dd><span class="code">Given&nbsp;a&nbsp;position&nbsp;on&nbsp;the&nbsp;fretboard&nbsp;(e.g.&nbsp;4th&nbsp;fret&nbsp;on&nbsp;the&nbsp;A&nbsp;string),&nbsp;return&nbsp;a&nbsp;list&nbsp;of&nbsp;positions&nbsp;on&nbsp;the&nbsp;fretboard&nbsp;that&nbsp;would&nbsp;play&nbsp;the&nbsp;corresponding&nbsp;note,&nbsp;one&nbsp;octave&nbsp;up.&nbsp;Useful&nbsp;for&nbsp;determining&nbsp;the&nbsp;notes&nbsp;to&nbsp;play&nbsp;for&nbsp;a&nbsp;chord,&nbsp;given&nbsp;just&nbsp;its&nbsp;root.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+position&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;Fretboard&nbsp;position&nbsp;class</span></dd></dl>
+ <dl><dt><a name="-get_note_x_semitones_up"><strong>get_note_x_semitones_up</strong></a>(note: str, semitones: int)</dt><dd><span class="code">returns&nbsp;the&nbsp;string&nbsp;representation&nbsp;of&nbsp;a&nbsp;note&nbsp;that&nbsp;is&nbsp;some&nbsp;amount&nbsp;of&nbsp;semitones&nbsp;higher&nbsp;than&nbsp;the&nbsp;note&nbsp;provided.<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+note&nbsp;--&nbsp;string&nbsp;representation&nbsp;of&nbsp;any&nbsp;note,&nbsp;e.g.&nbsp;A#<br>
+semitones&nbsp;--&nbsp;how&nbsp;many&nbsp;semitones&nbsp;you&nbsp;want&nbsp;to&nbsp;go&nbsp;up</span></dd></dl>
+ <dl><dt><a name="-get_open_option"><strong>get_open_option</strong></a>(note: str)</dt><dd><span class="code">Given&nbsp;a&nbsp;note,&nbsp;returns&nbsp;a&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;instance&nbsp;if&nbsp;it&nbsp;can&nbsp;be&nbsp;played&nbsp;on&nbsp;one&nbsp;of&nbsp;the&nbsp;strings&nbsp;openly&nbsp;(0th&nbsp;fret)<br>
+and&nbsp;returns&nbsp;None&nbsp;otherwise<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+note&nbsp;--&nbsp;string&nbsp;representation&nbsp;of&nbsp;a&nbsp;<a href="#Note">Note</a>&nbsp;instance.</span></dd></dl>
+ <dl><dt><a name="-get_perfect_fifth"><strong>get_perfect_fifth</strong></a>(note: str)</dt><dd><span class="code">Returns&nbsp;the&nbsp;perfect&nbsp;5th&nbsp;of&nbsp;a&nbsp;given&nbsp;note.&nbsp;Useful&nbsp;for&nbsp;procedurally&nbsp;generating&nbsp;the&nbsp;list&nbsp;of&nbsp;notes&nbsp;to&nbsp;play&nbsp;for&nbsp;various&nbsp;chords.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+note&nbsp;--&nbsp;string&nbsp;representation&nbsp;of&nbsp;a&nbsp;note.&nbsp;Octave&nbsp;doesn't&nbsp;matter&nbsp;here,&nbsp;so&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#Note">Note</a>&nbsp;class&nbsp;is&nbsp;not&nbsp;necessary.</span></dd></dl>
+ <dl><dt><a name="-get_perfect_fourth"><strong>get_perfect_fourth</strong></a>(note: str)</dt><dd><span class="code">Returns&nbsp;the&nbsp;perfect&nbsp;4th&nbsp;of&nbsp;a&nbsp;given&nbsp;note.&nbsp;Useful&nbsp;for&nbsp;procedurally&nbsp;generating&nbsp;the&nbsp;list&nbsp;of&nbsp;notes&nbsp;to&nbsp;play&nbsp;for&nbsp;various&nbsp;chords.&nbsp;Same&nbsp;as&nbsp;the&nbsp;get_perfect_fifth&nbsp;method,&nbsp;but&nbsp;it&nbsp;goes&nbsp;backwards.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+note&nbsp;--&nbsp;string&nbsp;representation&nbsp;of&nbsp;a&nbsp;note.&nbsp;Octave&nbsp;doesn't&nbsp;matter&nbsp;here,&nbsp;so&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#Note">Note</a>&nbsp;class&nbsp;is&nbsp;not&nbsp;necessary.</span></dd></dl>
+ <dl><dt><a name="-get_power_chord"><strong>get_power_chord</strong></a>(root)</dt></dl>
+ <dl><dt><a name="-get_same_string_options"><strong>get_same_string_options</strong></a>(note: str, string: int)</dt><dd><span class="code">Returns&nbsp;a&nbsp;list&nbsp;of&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;instances,&nbsp;where&nbsp;each&nbsp;instance&nbsp;has&nbsp;the&nbsp;same&nbsp;string&nbsp;attribute&nbsp;as&nbsp;the&nbsp;string&nbsp;argument.<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+note&nbsp;--&nbsp;string&nbsp;representation&nbsp;of&nbsp;a&nbsp;note&nbsp;instance<br>
+string&nbsp;--&nbsp;integer&nbsp;corresponding&nbsp;to&nbsp;one&nbsp;of&nbsp;the&nbsp;6&nbsp;strings</span></dd></dl>
+ <dl><dt><a name="-get_tritone_chord"><strong>get_tritone_chord</strong></a>(root)</dt></dl>
+ <dl><dt><a name="-get_vertical_distance"><strong>get_vertical_distance</strong></a>(position1, position2)</dt><dd><span class="code">Returns&nbsp;the&nbsp;vertical&nbsp;distance&nbsp;(how&nbsp;many&nbsp;strings&nbsp;away)&nbsp;this&nbsp;note&nbsp;is&nbsp;from&nbsp;another&nbsp;note&nbsp;on&nbsp;the&nbsp;fretboard.&nbsp;<br>
+Useful&nbsp;for&nbsp;determining&nbsp;whether&nbsp;or&nbsp;not&nbsp;it&nbsp;is&nbsp;worth&nbsp;it&nbsp;to&nbsp;jump&nbsp;X&nbsp;amount&nbsp;of&nbsp;strings&nbsp;to&nbsp;decrease<br>
+horizontal&nbsp;movement&nbsp;space,&nbsp;or&nbsp;to&nbsp;jump&nbsp;Y&nbsp;amount&nbsp;of&nbsp;strings&nbsp;with&nbsp;greater&nbsp;horizontal&nbsp;movement&nbsp;space,<br>
+where&nbsp;X&nbsp;&gt;&nbsp;Y.<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+position1&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;class<br>
+position2&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;class</span></dd></dl>
+ <dl><dt><a name="-lateral_fretboard_distance"><strong>lateral_fretboard_distance</strong></a>(position1, position2)</dt><dd><span class="code">Returns&nbsp;the&nbsp;lateral&nbsp;distance&nbsp;(how&nbsp;many&nbsp;frets&nbsp;away)&nbsp;this&nbsp;note&nbsp;is&nbsp;from&nbsp;another&nbsp;note&nbsp;on&nbsp;the&nbsp;fretboard.&nbsp;<br>
+Used&nbsp;to&nbsp;determine&nbsp;whether&nbsp;or&nbsp;not&nbsp;the&nbsp;note&nbsp;should&nbsp;be&nbsp;on&nbsp;the&nbsp;same&nbsp;string,&nbsp;or&nbsp;a&nbsp;different&nbsp;string.&nbsp;<br>
+E.g.&nbsp;it&nbsp;is&nbsp;extremely&nbsp;difficult&nbsp;to&nbsp;go&nbsp;from&nbsp;the&nbsp;3rd&nbsp;fret&nbsp;to&nbsp;the&nbsp;9th&nbsp;fret&nbsp;on&nbsp;the&nbsp;E&nbsp;string,&nbsp;so&nbsp;it&nbsp;would&nbsp;be&nbsp;better&nbsp;to&nbsp;play&nbsp;the&nbsp;3rd&nbsp;fret&nbsp;on&nbsp;the&nbsp;E&nbsp;string,&nbsp;then&nbsp;the&nbsp;4th&nbsp;fret&nbsp;on&nbsp;the&nbsp;A&nbsp;string.<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+position1&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;class<br>
+position2&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#FretboardPosition">FretboardPosition</a>&nbsp;class</span></dd></dl>
+ <dl><dt><a name="-notes_are_in_tuning"><strong>notes_are_in_tuning</strong></a>(notes, tuning)</dt><dd><span class="code">Determines&nbsp;whether&nbsp;or&nbsp;not&nbsp;a&nbsp;sequence&nbsp;of&nbsp;notes&nbsp;(string&nbsp;representation)&nbsp;are&nbsp;in&nbsp;<br>
+a&nbsp;tuning.&nbsp;Returns&nbsp;True&nbsp;or&nbsp;False.<br>
+&nbsp;<br>
+keyword&nbsp;arguments:<br>
+notes:&nbsp;a&nbsp;list&nbsp;of&nbsp;the&nbsp;string&nbsp;representations&nbsp;of&nbsp;the&nbsp;note&nbsp;class<br>
+tuning:&nbsp;a&nbsp;string&nbsp;such&nbsp;as&nbsp;"Drop&nbsp;D",&nbsp;corresponding&nbsp;to&nbsp;a&nbsp;tuning.</span></dd></dl>
+ <dl><dt><a name="-parse_transcriber_note"><strong>parse_transcriber_note</strong></a>(note: str)</dt><dd><span class="code">Reads&nbsp;the&nbsp;string&nbsp;representation&nbsp;of&nbsp;notes&nbsp;from&nbsp;the&nbsp;transcriber&nbsp;app&nbsp;and&nbsp;converts&nbsp;it&nbsp;to&nbsp;the&nbsp;equivalent&nbsp;<a href="#Note">Note</a>&nbsp;instance<br>
+&nbsp;<br>
+keyword&nbsp;arguments<br>
+note&nbsp;--&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;note&nbsp;as&nbsp;they&nbsp;are&nbsp;provided&nbsp;by&nbsp;the&nbsp;transcriber&nbsp;application</span></dd></dl>
+ <dl><dt><a name="-transpose_fretboard_position"><strong>transpose_fretboard_position</strong></a>(note, level: int)</dt><dd><span class="code">Given&nbsp;a&nbsp;note,&nbsp;return&nbsp;the&nbsp;position&nbsp;on&nbsp;the&nbsp;fretboard&nbsp;on&nbsp;which&nbsp;it&nbsp;is&nbsp;played&nbsp;for&nbsp;a&nbsp;guitar&nbsp;that&nbsp;is&nbsp;tuned&nbsp;&lt;level&gt;&nbsp;HALF&nbsp;STEPS&nbsp;lower&nbsp;or&nbsp;higher.<br>
+&nbsp;<br>
+Keyword&nbsp;arguments:<br>
+note&nbsp;--&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;<a href="#Note">Note</a>&nbsp;class<br>
+level&nbsp;--&nbsp;the&nbsp;amount&nbsp;of&nbsp;half&nbsp;steps&nbsp;to&nbsp;transpose&nbsp;up&nbsp;or&nbsp;down</span></dd></dl>
+</td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>CIRCLE_OF_FIFTHS</strong> = ['C', 'G', 'D', 'A', 'E', 'B', 'Gb', 'Db', 'Ab', 'Eb', 'Bb', 'F']<br>
+<strong>EXTENDED_TUNINGS</strong> = ['B standard', 'Drop A']<br>
+<strong>NOTES</strong> = ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#']<br>
+<strong>STRINGS_FOR_TUNINGS</strong> = {'A# standard': {1: 'D#', 2: 'A#', 3: 'F#', 4: 'C#', 5: 'G#', 6: 'D#', 7: 'A#'}, 'B standard': {1: 'E', 2: 'B', 3: 'G', 4: 'D', 5: 'A', 6: 'E', 7: 'B'}, 'C standard': {1: 'C', 2: 'G', 3: 'D#', 4: 'A#', 5: 'F', 6: 'C'}, 'C# standard': {1: 'C#', 2: 'G#', 3: 'E', 4: 'B', 5: 'F#', 6: 'C#'}, 'D standard': {1: 'D', 2: 'A', 3: 'F', 4: 'C', 5: 'G', 6: 'D'}, 'D# standard': {1: 'eb', 2: 'Bb', 3: 'Gb', 4: 'Db', 5: 'Ab', 6: 'Eb'}, 'Db standard': {1: 'C#', 2: 'G#', 3: 'E', 4: 'B', 5: 'F#', 6: 'C#'}, 'Drop A': {1: 'E', 2: 'B', 3: 'G', 4: 'D', 5: 'A', 6: 'E', 7: 'A'}, 'Drop B': {1: 'C', 2: 'G', 3: 'D#', 4: 'A#', 5: 'F', 6: 'B'}, 'Drop C': {1: 'D', 2: 'A', 3: 'F', 4: 'C', 5: 'G', 6: 'C'}, ...}<br>
+<strong>TAB_MAP</strong> = {'(A#, 1)': [&lt;tab_generator.FretboardPosition object&gt;], '(A#, 2)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], '(A#, 3)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], '(A#, 4)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], '(A#, 5)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], '(A, 1)': [&lt;tab_generator.FretboardPosition object&gt;], '(A, 2)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], '(A, 3)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], '(A, 4)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], '(A, 5)': [&lt;tab_generator.FretboardPosition object&gt;, &lt;tab_generator.FretboardPosition object&gt;], ...}<br>
+<strong>TUNINGS</strong> = {'A standard': ['A', 'D', 'G', 'C', 'E', 'A'], 'B standard': ['B', 'E', 'A', 'D', 'G', 'B', 'E'], 'C standard': ['C', 'F', 'A#', 'D#', 'G', 'C'], 'C# standard': ['C#', 'F#', 'B', 'E', 'G#', 'C#'], 'D standard': ['D', 'G', 'C', 'F', 'A', 'D'], 'Drop A': ['A', 'E', 'A', 'D', 'G', 'B'], 'Drop B': ['B', 'F#', 'B', 'E', 'G#', 'C#'], 'Drop C': ['C', 'G', 'C', 'F', 'A', 'D'], 'Drop C#': ['C#', 'G#', 'C#', 'F#', 'A#', 'D#'], 'Drop D': ['D', 'A', 'D', 'G', 'B', 'E'], ...}<br>
+<strong>WHOLE_STEPS</strong> = ['A', 'B', 'C', 'D', 'E', 'F', 'G']<br>
+<strong>transpose_map</strong> = {'C standard': {1: 4, 2: 4, 3: 4, 4: 4, 5: 4, 6: 4, 7: 0}, 'C# standard': {1: 3, 2: 3, 3: 3, 4: 3, 5: 3, 6: 3, 7: 0}, 'D standard': {1: 2, 2: 2, 3: 2, 4: 2, 5: 2, 6: 2, 7: 0}, 'Drop C': {1: 2, 2: 2, 3: 2, 4: 2, 5: 2, 6: 4, 7: 0}, 'Drop D': {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 2, 7: 0}, 'E standard': {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}, 'Eb standard': {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 0}}</td></tr></table>
+</body></html>

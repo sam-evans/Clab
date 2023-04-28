@@ -1,0 +1,146 @@
+Db3 Gb2
+E3 A2
+Gb3 B2
+G3 C3
+G3 C3
+G3 C3
+Db3 Gb2
+E3 A2
+Gb3 B2
+B2 E2
+B2 E2
+B2 E2
+Db3 Gb2
+Db3 Gb2
+Db3 Gb2
+E3 A2
+E3 A2
+Gb3 B2
+Gb3 B2
+Db3 Gb2
+Db3 Gb2
+Db3 Gb2
+E3 A2
+E3 A2
+Gb3 B2
+Gb3 B2
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Gb3 B2
+Gb3 B2
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+A3 D3
+A3 D3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Gb3 B2
+Gb3 B2
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+A3 D3
+Ab3 Db3
+Db3 Gb2
+Db3 Gb2
+Db3 Gb2
+Db3 Gb2
+E3 A2
+E3 A2
+E3 A2
+E3 A2
+Gb3 B2
+Gb3 B2
+Gb3 B2
+Gb3 B2
+A3 D3
+A3 D3
+Ab3 Db3
+Ab3 Db3
+Db3 Gb2
+Db3 Gb2
+Db3 Gb2
+Db3 Gb2
+E3 A2
+E3 A2
+E3 A2
+E3 A2
+Gb3 B2
+Gb3 B2
+A3 D3
+Ab3 Db3
+Db3 Gb2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+C4 Ab3 Eb3 Bb2
+Db4 A3 E3 A2
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+A3 E3 A2
+A3 E3 A2
+B3 Gb3 B2
+B3 Gb3 B2
+D4 A3 D3
+Db4 Ab3 Db3
+Gb3 Db3 Gb2
+Gb3 Db3 Gb2
+A3 E3 A2
+A3 E3 A2
+B3 Gb3 B2
+B3 Gb3 B2
+D4 A3 D3
+D4 A3 D3
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+Gb3 B2
+Gb3 B2
+Gb3 B2
+Ab3 Db3
+Ab3 Db3
+Ab3 Db3
+A3 D3
+A3 D3
+A3 D3

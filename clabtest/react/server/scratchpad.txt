@@ -1,0 +1,24 @@
+e|----------- Correct sample
+B|---6h0-5h0- 
+G|----------- If start = (A, 7) end = (B, 6)
+D|----------- Then V = Vector(1, 3) with |V| = sqrt(10) = 3.16227
+A|-7---------                           ||V|| = sqrt([0.7*1]^2 + [1.2*3]^2) = 3.6674
+
+E|-----------
+
+e|---1---0--- Inorrect sample
+B|-----0---0-
+G|----------- If start = (D, 2) end = (e, 1)
+D|-2--------- Then V = Vector(1, 3) with |V| = sqrt(10) = 3.16227
+A|-----------                           ||V|| = sqrt([0.7*1]^2 + [1.2*3]^2) = 3.6674
+E|----------- Notice there is more string skipping
+
+
+
+the vector implementation with weights on its own is not enough to
+break a bad output like this.
+
+Ideas:
+1. Use chunks: feed in 4 notes at a time, see how many instances of string
+   ----------- skipping exist. Prefer an alternative arrangement when there
+	       is a lot (ambiguous) of string skipping
