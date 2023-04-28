@@ -169,20 +169,23 @@ class Drop extends React.Component {
               />
               {/* Save as PDF button */}
               <button id="SavePDF" onClick={() => this.generatePDF()}>Save as PDF</button>
+              
+              <select id='tuningDropdown' value={this.state.selectedValue} onChange={this.handleSelectChange}>
+              {this.options}
+              </select>
+              <p>Selected tuning: {this.state.selectedValue}</p>
+              <button id="generateTuningsBtn" onClick={this.handleClick}>Generate Tunings</button>
+              <button id="changeTuning" onClick={this.handleTuningChange}>Submit</button>
                 {/* Display JSON data */}
                 <p>
                 {fetchedData.tab}
                 </p>
             </div>
           ) : null}
+          
           <div>
           
-          <select id='tuningDropdown' value={this.state.selectedValue} onChange={this.handleSelectChange}>
-          {this.options}
-          </select>
-          <p>Selected tuning: {this.state.selectedValue}</p>
-          <button id="generateTuningsBtn" onClick={this.handleClick}>Generate Tunings</button>
-          <button id="changeTuning" onClick={this.handleTuningChange}>Submit</button>
+
       </div>
 
         </div>
