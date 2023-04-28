@@ -169,7 +169,7 @@ class Drop extends React.Component {
               />
               {/* Save as PDF button */}
               <button id="SavePDF" onClick={() => this.generatePDF()}>Save as PDF</button>
-              
+
               <select id='tuningDropdown' value={this.state.selectedValue} onChange={this.handleSelectChange}>
               {this.options}
               </select>
@@ -177,9 +177,9 @@ class Drop extends React.Component {
               <button id="generateTuningsBtn" onClick={this.handleClick}>Generate Tunings</button>
               <button id="changeTuning" onClick={this.handleTuningChange}>Submit</button>
                 {/* Display JSON data */}
-                <p>
-                {fetchedData.tab}
-                </p>
+                  <p className="pdf-content">
+                    {fetchedData.tab}
+                  </p>
             </div>
           ) : null}
           
