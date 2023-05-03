@@ -195,4 +195,29 @@ textarea {
   padding-top: 40px;
 }
 
+#tabControls {
+  display:flex;
+  flex-direction: row;
+  border: 2px solid lightcyan;
+  border-radius: 10px;
+  padding: 0.5em;
+}
 
+.pdf-content {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#SavePDF {
+  font-size: 0.6em;
+  height: 0.5em;
+  text-align: center;
+  padding: 13px;
+  line-height: 0px;
+  width: 11em;
+}
+
+#tabControls input {
+  border-radius: 5px;
+} 
